@@ -27,6 +27,7 @@ class SignUpVC: UIViewController {
     }
     
     @IBAction func passwordToggel(_ sender: UIButton) {
+        passwordTf.isSecureTextEntry.toggle()
     }
     
     @IBAction func signUpTapped(_ sender: UIButton) {
