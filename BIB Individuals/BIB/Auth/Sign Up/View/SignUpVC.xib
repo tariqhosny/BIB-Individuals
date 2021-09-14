@@ -172,7 +172,7 @@
                                                                     </constraints>
                                                                     <state key="normal" image="eye.fill" catalog="system"/>
                                                                     <connections>
-                                                                        <action selector="passwordToggel:" destination="-1" eventType="touchUpInside" id="J8J-6E-xWB"/>
+                                                                        <action selector="passwordToggle:" destination="-1" eventType="touchUpInside" id="J8J-6E-xWB"/>
                                                                     </connections>
                                                                 </button>
                                                             </subviews>

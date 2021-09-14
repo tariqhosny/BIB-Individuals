@@ -26,7 +26,7 @@ class SignUpVC: UIViewController {
         navigationController?.navigationBar.topItem?.title = "Create Account"
     }
     
-    @IBAction func passwordToggel(_ sender: UIButton) {
+    @IBAction func passwordToggle(_ sender: UIButton) {
         passwordTf.isSecureTextEntry.toggle()
     }
     
