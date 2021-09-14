@@ -9,6 +9,13 @@ import UIKit
 
 class SignUpVC: UIViewController {
 
+    @IBOutlet weak var firstNameTf: UITextField!
+    @IBOutlet weak var secondNameTf: UITextField!
+    @IBOutlet weak var phoneTf: UITextField!
+    @IBOutlet weak var emailTf: UITextField!
+    @IBOutlet weak var passwordTf: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,5 +25,11 @@ class SignUpVC: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         navigationController?.navigationBar.topItem?.title = "Create Account"
     }
-
+    
+    @IBAction func passwordToggel(_ sender: UIButton) {
+    }
+    
+    @IBAction func signUpTapped(_ sender: UIButton) {
+    }
+    
 }

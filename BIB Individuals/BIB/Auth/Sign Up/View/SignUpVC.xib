@@ -10,6 +10,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpVC" customModule="BIB_Individuals" customModuleProvider="target">
             <connections>
+                <outlet property="emailTf" destination="hHE-n2-KpB" id="dVT-T0-VnF"/>
+                <outlet property="firstNameTf" destination="SSl-XQ-ngq" id="dk8-1q-sAl"/>
+                <outlet property="passwordTf" destination="7MB-Fj-xdo" id="o7V-Gp-9BN"/>
+                <outlet property="phoneTf" destination="g8e-2W-RCV" id="sKL-5Z-cG5"/>
+                <outlet property="secondNameTf" destination="bnv-vM-9XS" id="6Zk-xK-350"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -62,7 +67,7 @@
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SSl-XQ-ngq">
                                                             <rect key="frame" x="0.0" y="25.5" width="374" height="18.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                                         </textField>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u5j-8h-bXc">
                                                             <rect key="frame" x="0.0" y="49" width="374" height="1"/>
@@ -85,7 +90,7 @@
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bnv-vM-9XS">
                                                             <rect key="frame" x="0.0" y="25.5" width="374" height="18.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                                            <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
                                                         </textField>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r5E-rd-nZT">
                                                             <rect key="frame" x="0.0" y="49" width="374" height="1"/>
@@ -108,7 +113,7 @@
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g8e-2W-RCV">
                                                             <rect key="frame" x="0.0" y="25.5" width="374" height="18.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                                         </textField>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Og2-hf-upb">
                                                             <rect key="frame" x="0.0" y="49" width="374" height="1"/>
@@ -166,6 +171,9 @@
                                                                         <constraint firstAttribute="height" constant="30" id="BXi-up-sfx"/>
                                                                     </constraints>
                                                                     <state key="normal" image="eye.fill" catalog="system"/>
+                                                                    <connections>
+                                                                        <action selector="passwordToggel:" destination="-1" eventType="touchUpInside" id="J8J-6E-xWB"/>
+                                                                    </connections>
                                                                 </button>
                                                             </subviews>
                                                         </stackView>
@@ -193,6 +201,9 @@
                                                             <real key="value" value="7"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
+                                                    <connections>
+                                                        <action selector="signUpTapped:" destination="-1" eventType="touchUpInside" id="cGb-b2-hIX"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
