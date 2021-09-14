@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		0433826926EF9B4B00B1A568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433826826EF9B4B00B1A568 /* AppDelegate.swift */; };
 		0433826B26EF9B4B00B1A568 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433826A26EF9B4B00B1A568 /* SceneDelegate.swift */; };
-		0433826D26EF9B4B00B1A568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433826C26EF9B4B00B1A568 /* ViewController.swift */; };
 		0433827026EF9B4B00B1A568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0433826E26EF9B4B00B1A568 /* Main.storyboard */; };
 		0433827226EF9B4E00B1A568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0433827126EF9B4E00B1A568 /* Assets.xcassets */; };
 		0433827526EF9B4E00B1A568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0433827326EF9B4E00B1A568 /* LaunchScreen.storyboard */; };
+		0433828A26EFB1C400B1A568 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433828826EFB1C400B1A568 /* LoginVC.swift */; };
+		0433828B26EFB1C400B1A568 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0433828926EFB1C400B1A568 /* LoginVC.xib */; };
+		04B4E87026F0FD360039E3F2 /* labelRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E86C26F0FD2C0039E3F2 /* labelRound.swift */; };
+		04B4E87126F0FD360039E3F2 /* TextFieldIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E86D26F0FD2C0039E3F2 /* TextFieldIcon.swift */; };
+		04B4E87226F0FD360039E3F2 /* stackRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E86A26F0FD2C0039E3F2 /* stackRound.swift */; };
+		04B4E87326F0FD360039E3F2 /* viewRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E86E26F0FD2C0039E3F2 /* viewRound.swift */; };
+		04B4E87426F0FD360039E3F2 /* imageRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E86B26F0FD2C0039E3F2 /* imageRound.swift */; };
+		04B4E87526F0FD360039E3F2 /* textViewRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E86926F0FD2C0039E3F2 /* textViewRound.swift */; };
+		04B4E87626F0FD360039E3F2 /* buttonRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E86F26F0FD2C0039E3F2 /* buttonRound.swift */; };
+		04B4E87B26F0FF4E0039E3F2 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E87926F0FF4E0039E3F2 /* SignUpVC.swift */; };
+		04B4E87C26F0FF4E0039E3F2 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B4E87A26F0FF4E0039E3F2 /* SignUpVC.xib */; };
+		04B4E88126F101E60039E3F2 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E87F26F101E60039E3F2 /* ResetPasswordVC.swift */; };
+		04B4E88226F101E60039E3F2 /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B4E88026F101E60039E3F2 /* ResetPasswordVC.xib */; };
+		04B4E88926F10CDC0039E3F2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E88726F10CDC0039E3F2 /* HomeVC.swift */; };
+		04B4E88A26F10CDC0039E3F2 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B4E88826F10CDC0039E3F2 /* HomeVC.xib */; };
+		04B4E88E26F12D110039E3F2 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4E88D26F12D0F0039E3F2 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0433826526EF9B4B00B1A568 /* BIB Individuals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BIB Individuals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0433826826EF9B4B00B1A568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0433826A26EF9B4B00B1A568 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0433826C26EF9B4B00B1A568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0433826F26EF9B4B00B1A568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0433827126EF9B4E00B1A568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0433827426EF9B4E00B1A568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0433827626EF9B4E00B1A568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0433828826EFB1C400B1A568 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0433828926EFB1C400B1A568 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		04B4E86926F0FD2C0039E3F2 /* textViewRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textViewRound.swift; sourceTree = "<group>"; };
+		04B4E86A26F0FD2C0039E3F2 /* stackRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stackRound.swift; sourceTree = "<group>"; };
+		04B4E86B26F0FD2C0039E3F2 /* imageRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageRound.swift; sourceTree = "<group>"; };
+		04B4E86C26F0FD2C0039E3F2 /* labelRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labelRound.swift; sourceTree = "<group>"; };
+		04B4E86D26F0FD2C0039E3F2 /* TextFieldIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldIcon.swift; sourceTree = "<group>"; };
+		04B4E86E26F0FD2C0039E3F2 /* viewRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewRound.swift; sourceTree = "<group>"; };
+		04B4E86F26F0FD2C0039E3F2 /* buttonRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonRound.swift; sourceTree = "<group>"; };
+		04B4E87926F0FF4E0039E3F2 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		04B4E87A26F0FF4E0039E3F2 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		04B4E87F26F101E60039E3F2 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		04B4E88026F101E60039E3F2 /* ResetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordVC.xib; sourceTree = "<group>"; };
+		04B4E88726F10CDC0039E3F2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		04B4E88826F10CDC0039E3F2 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		04B4E88D26F12D0F0039E3F2 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,150 @@
 		0433826726EF9B4B00B1A568 /* BIB Individuals */ = {
 			isa = PBXGroup;
 			children = (
-				0433826826EF9B4B00B1A568 /* AppDelegate.swift */,
-				0433826A26EF9B4B00B1A568 /* SceneDelegate.swift */,
-				0433826C26EF9B4B00B1A568 /* ViewController.swift */,
-				0433826E26EF9B4B00B1A568 /* Main.storyboard */,
-				0433827126EF9B4E00B1A568 /* Assets.xcassets */,
-				0433827326EF9B4E00B1A568 /* LaunchScreen.storyboard */,
+				0433827D26EF9F4A00B1A568 /* Utilities */,
+				0433828226EFAFF000B1A568 /* BIB */,
 				0433827626EF9B4E00B1A568 /* Info.plist */,
 			);
 			path = "BIB Individuals";
+			sourceTree = "<group>";
+		};
+		0433827D26EF9F4A00B1A568 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0433827F26EF9F5F00B1A568 /* Luanch */,
+				0433827E26EF9F5900B1A568 /* View */,
+				04B4E89026F12F990039E3F2 /* Extensions */,
+				04B4E88D26F12D0F0039E3F2 /* Helper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0433827E26EF9F5900B1A568 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E86826F0FD2C0039E3F2 /* Rounds */,
+				0433826E26EF9B4B00B1A568 /* Main.storyboard */,
+				0433827326EF9B4E00B1A568 /* LaunchScreen.storyboard */,
+				0433827126EF9B4E00B1A568 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0433827F26EF9F5F00B1A568 /* Luanch */ = {
+			isa = PBXGroup;
+			children = (
+				0433826826EF9B4B00B1A568 /* AppDelegate.swift */,
+				0433826A26EF9B4B00B1A568 /* SceneDelegate.swift */,
+			);
+			path = Luanch;
+			sourceTree = "<group>";
+		};
+		0433828226EFAFF000B1A568 /* BIB */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E88526F10CA40039E3F2 /* Home */,
+				0433828326EFB07D00B1A568 /* Auth */,
+			);
+			path = BIB;
+			sourceTree = "<group>";
+		};
+		0433828326EFB07D00B1A568 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0433828626EFB0CD00B1A568 /* Reset Password */,
+				0433828526EFB0A800B1A568 /* Sign Up */,
+				0433828426EFB0A000B1A568 /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0433828426EFB0A000B1A568 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0433828726EFB1A600B1A568 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0433828526EFB0A800B1A568 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E87826F0FF350039E3F2 /* View */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		0433828626EFB0CD00B1A568 /* Reset Password */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E87E26F101D40039E3F2 /* View */,
+			);
+			path = "Reset Password";
+			sourceTree = "<group>";
+		};
+		0433828726EFB1A600B1A568 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0433828826EFB1C400B1A568 /* LoginVC.swift */,
+				0433828926EFB1C400B1A568 /* LoginVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B4E86826F0FD2C0039E3F2 /* Rounds */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E86926F0FD2C0039E3F2 /* textViewRound.swift */,
+				04B4E86A26F0FD2C0039E3F2 /* stackRound.swift */,
+				04B4E86B26F0FD2C0039E3F2 /* imageRound.swift */,
+				04B4E86C26F0FD2C0039E3F2 /* labelRound.swift */,
+				04B4E86D26F0FD2C0039E3F2 /* TextFieldIcon.swift */,
+				04B4E86E26F0FD2C0039E3F2 /* viewRound.swift */,
+				04B4E86F26F0FD2C0039E3F2 /* buttonRound.swift */,
+			);
+			path = Rounds;
+			sourceTree = "<group>";
+		};
+		04B4E87826F0FF350039E3F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E87926F0FF4E0039E3F2 /* SignUpVC.swift */,
+				04B4E87A26F0FF4E0039E3F2 /* SignUpVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B4E87E26F101D40039E3F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E87F26F101E60039E3F2 /* ResetPasswordVC.swift */,
+				04B4E88026F101E60039E3F2 /* ResetPasswordVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B4E88526F10CA40039E3F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E88626F10CB70039E3F2 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04B4E88626F10CB70039E3F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B4E88726F10CDC0039E3F2 /* HomeVC.swift */,
+				04B4E88826F10CDC0039E3F2 /* HomeVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B4E89026F12F990039E3F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +291,11 @@
 			files = (
 				0433827526EF9B4E00B1A568 /* LaunchScreen.storyboard in Resources */,
 				0433827226EF9B4E00B1A568 /* Assets.xcassets in Resources */,
+				04B4E87C26F0FF4E0039E3F2 /* SignUpVC.xib in Resources */,
+				0433828B26EFB1C400B1A568 /* LoginVC.xib in Resources */,
 				0433827026EF9B4B00B1A568 /* Main.storyboard in Resources */,
+				04B4E88226F101E60039E3F2 /* ResetPasswordVC.xib in Resources */,
+				04B4E88A26F10CDC0039E3F2 /* HomeVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0433826D26EF9B4B00B1A568 /* ViewController.swift in Sources */,
 				0433826926EF9B4B00B1A568 /* AppDelegate.swift in Sources */,
+				04B4E88E26F12D110039E3F2 /* Helper.swift in Sources */,
 				0433826B26EF9B4B00B1A568 /* SceneDelegate.swift in Sources */,
+				04B4E87626F0FD360039E3F2 /* buttonRound.swift in Sources */,
+				04B4E87B26F0FF4E0039E3F2 /* SignUpVC.swift in Sources */,
+				04B4E88926F10CDC0039E3F2 /* HomeVC.swift in Sources */,
+				04B4E87126F0FD360039E3F2 /* TextFieldIcon.swift in Sources */,
+				0433828A26EFB1C400B1A568 /* LoginVC.swift in Sources */,
+				04B4E87026F0FD360039E3F2 /* labelRound.swift in Sources */,
+				04B4E87326F0FD360039E3F2 /* viewRound.swift in Sources */,
+				04B4E87426F0FD360039E3F2 /* imageRound.swift in Sources */,
+				04B4E87226F0FD360039E3F2 /* stackRound.swift in Sources */,
+				04B4E87526F0FD360039E3F2 /* textViewRound.swift in Sources */,
+				04B4E88126F101E60039E3F2 /* ResetPasswordVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +476,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Tariq.BIB-Individuals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +495,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Tariq.BIB-Individuals";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
