@@ -12,7 +12,7 @@ class LoginVC: UIViewController {
     @IBOutlet weak var emailTf: UITextField!
     @IBOutlet weak var emailCheckMarkIcon: UIImageView!
     @IBOutlet weak var emailSeparatedView: UIView!
-    @IBOutlet weak var paswwordTf: UITextField!
+    @IBOutlet weak var passwordTf: UITextField!
     @IBOutlet weak var passwordCheckMarkIcon: UIImageView!
     @IBOutlet weak var passwordSeparatedView: UIView!
     
@@ -37,9 +37,9 @@ class LoginVC: UIViewController {
     
     func setupTextFields(){
         emailTf.delegate = self
-        paswwordTf.delegate = self
+        passwordTf.delegate = self
         emailTf.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
-        paswwordTf.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+        passwordTf.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
     }
 
     @IBAction func resetPasswordTapped(_ sender: UIButton) {

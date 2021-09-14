@@ -15,7 +15,7 @@
                 <outlet property="emailTf" destination="xS4-g9-yuf" id="KUS-N9-eKa"/>
                 <outlet property="passwordCheckMarkIcon" destination="8JW-kB-CVg" id="gop-DF-rkc"/>
                 <outlet property="passwordSeparatedView" destination="SF5-iu-9Mv" id="jKf-eJ-Vyb"/>
-                <outlet property="paswwordTf" destination="2aG-j3-cQR" id="P2t-Qz-CTt"/>
+                <outlet property="passwordTf" destination="2aG-j3-cQR" id="P2t-Qz-CTt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
