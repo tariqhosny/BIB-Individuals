@@ -65,9 +65,11 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func facebookLoginTapped(_ sender: UIButton) {
+        showAlert(title: "Facebook", message: "You must have an apple developer account", self)
     }
     
     @IBAction func googleLoginTapped(_ sender: UIButton) {
+        showAlert(title: "Google", message: "You must have an apple developer account", self)
     }
     
     @IBAction func createAccountTapped(_ sender: UIButton) {

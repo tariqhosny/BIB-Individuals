@@ -16,7 +16,7 @@ extension UIViewController {
     }
     
     func validatePassword(password: String) -> Bool{
-        let passwordRegEx = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$"
+        let passwordRegEx = "^(?=.*[A-Za-z0-9])(?=.*\\d)[A-Za-z0-9!@#$%^&*()-_?\\d]{8,}$"
         let passwordPred = NSPredicate(format:"SELF MATCHES %@", passwordRegEx)
         return passwordPred.evaluate(with: password)
     }
