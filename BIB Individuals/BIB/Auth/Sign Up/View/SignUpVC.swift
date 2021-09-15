@@ -22,6 +22,7 @@ class SignUpVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        hideKeyboardWhenTappedAround()
         setupTextFields()
     }
 
@@ -42,37 +43,37 @@ class SignUpVC: UIViewController {
     
     @IBAction func signUpTapped(_ sender: UIButton) {
         guard let firstName = firstNameTf.text, !firstName.isEmpty else {
-            Helper.showAlert(title: "Sign Up", message: "Please enter the first name!", self)
+            showAlert(title: "Sign Up", message: "Please enter the first name!", self)
             return
         }
         
         guard let secondName = secondNameTf.text, !secondName.isEmpty else {
-            Helper.showAlert(title: "Sign Up", message: "Please enter the second name!", self)
+            showAlert(title: "Sign Up", message: "Please enter the second name!", self)
             return
         }
         
         guard let phone = phoneTf.text, !phone.isEmpty else {
-            Helper.showAlert(title: "Sign Up", message: "Please enter the mobile number!", self)
+            showAlert(title: "Sign Up", message: "Please enter the mobile number!", self)
             return
         }
         
         guard let email = emailTf.text, !email.isEmpty else {
-            Helper.showAlert(title: "Sign Up", message: "Please enter the email!", self)
+            showAlert(title: "Sign Up", message: "Please enter the email!", self)
             return
         }
         
         guard isEmailValid else {
-            Helper.showAlert(title: "Email Validation", message: "Please enter a valid email!", self)
+            showAlert(title: "Email Validation", message: "Please enter a valid email!", self)
             return
         }
         
         guard let password = passwordTf.text, !password.isEmpty else {
-            Helper.showAlert(title: "Sign Up", message: "Please enter the password!", self)
+            showAlert(title: "Sign Up", message: "Please enter the password!", self)
             return
         }
         
         guard isPasswordValid else {
-            Helper.showAlert(title: "Password Validation", message: "Password must contain minimum 8 characters at least 1 alphabet and 1 number!", self)
+            showAlert(title: "Password Validation", message: "Password must contain minimum 8 characters at least 1 alphabet and 1 number!", self)
             return
         }
         
@@ -88,7 +89,7 @@ extension SignUpVC: UITextFieldDelegate{
         if textField == emailTf{
             guard let email = textField.text,
                   !email.isEmpty,
-                  Helper.validateEmail(email: email)
+                  validateEmail(email: email)
             else {
                 isEmailValid = false
                 return
@@ -98,7 +99,7 @@ extension SignUpVC: UITextFieldDelegate{
         else{
             guard let password = textField.text,
                   !password.isEmpty,
-                  Helper.validatePassword(password: password)
+                  validatePassword(password: password)
             else {
                 isPasswordValid = false
                 return

@@ -23,6 +23,7 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        hideKeyboardWhenTappedAround()
         setupTextFields()
     }
     
@@ -49,17 +50,17 @@ class LoginVC: UIViewController {
     
     @IBAction func loginTapped(_ sender: UIButton) {
         guard isEmailValid else {
-            Helper.showAlert(title: "Email Validation", message: "Please enter a valid email!", self)
+            showAlert(title: "Email Validation", message: "Please enter a valid email!", self)
             return
         }
         
         guard isPasswordValid else {
-            Helper.showAlert(title: "Password Validation", message: "Password must contain minimum 8 characters at least 1 alphabet and 1 number!", self)
+            showAlert(title: "Password Validation", message: "Password must contain minimum 8 characters at least 1 alphabet and 1 number!", self)
             return
         }
-        let vc = HomeVC(nibName: "HomeVC", bundle: nil)
-        navigationController?.pushViewController(vc, animated: true)
-//        Helper.saveUserData(username: "Tariq M. Fathy", email: emailTf.text ?? "tariq@bib.com")
+        
+        Helper.saveUserData(username: "Tariq M. Fathy", email: emailTf.text ?? "tariq@bib.com")
+        Helper.restart()
         
     }
     
@@ -98,7 +99,7 @@ extension LoginVC: UITextFieldDelegate{
         if textField == emailTf{
             guard let email = textField.text,
                   !email.isEmpty,
-                  Helper.validateEmail(email: email)
+                  validateEmail(email: email)
             else {
                 emailCheckMarkIcon.tintColor = .lightGray
                 isEmailValid = false
@@ -110,7 +111,7 @@ extension LoginVC: UITextFieldDelegate{
         else{
             guard let password = textField.text,
                   !password.isEmpty,
-                  Helper.validatePassword(password: password)
+                  validatePassword(password: password)
             else {
                 passwordCheckMarkIcon.tintColor = .lightGray
                 isPasswordValid = false
